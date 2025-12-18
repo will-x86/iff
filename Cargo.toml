@@ -1,7 +1,16 @@
 [package]
-name = "iff"
+name = "ifff"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+description = "A tool to run previously run commands - un-forgetter"
+repository = "https://github.com/will-x86/iff"
+homepage = "https://github.com/will-x86/iff"
+readme = "README.md"
+
+[[bin]]
+name = "iff"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }

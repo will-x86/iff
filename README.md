@@ -1,13 +1,39 @@
 # iff
 
-A terminal program to run a command you've forgotten, essentially fuzzy searching your history.
+A terminal tool to quickly find and run commands from your shell history.
 
+## What it does
 
-run via "iff XX" or simply "iff".
+Search through your bash/zsh history and re-run commands without retyping them.
+```bash
+$ iff docker
+# Shows all docker commands you've run
+# Navigate with arrows or j/k, press Enter to run
+```
 
-Upon enter, it'll run said command
+## Installation
+```bash
+cargo install ifff
+```
 
+## Usage
+```bash
+# Search with initial filter
+iff docker
 
-# Installation
+# Browse all history
+iff
 
-## Todo
+# Navigate with arrow keys or j/k
+# Press Enter to run selected command
+# Press q or Esc to quit
+```
+
+## Requirements
+
+- Rust/Cargo (for installation)
+- bash or zsh shell history
+
+## License
+
+MIT
