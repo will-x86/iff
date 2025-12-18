@@ -16,6 +16,10 @@ $ iff docker
 cargo install ifff
 ```
 
+```bash
+yay -S iff
+```
+
 ## Usage
 ```bash
 # Search with initial filter
