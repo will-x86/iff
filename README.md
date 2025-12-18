@@ -2,6 +2,8 @@
 
 A terminal tool to quickly find and run commands from your shell history.
 
+## Picture
+![Screenshot of iff working](media/screenshot.png)
 ## What it does
 
 Search through your bash/zsh history and re-run commands without retyping them.
@@ -12,10 +14,11 @@ $ iff docker
 ```
 
 ## Installation
+### Other
 ```bash
 cargo install ifff
 ```
-
+### Arch
 ```bash
 yay -S iff
 ```
